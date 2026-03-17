@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <h1>Seu nome</h1>
+    <h2 id='profissao'>Engenheiro de Software</h2>
+    <a href='https://www.inatel.br' target='_blank'>
+        <p>Linkedin</p>
+    </a>
+    <h3 class='competencias'>Competências</h3>
+    <ul>
+        <li class='destaque'>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <div>
+        <p>WhatsApp
+        <p>
+    </div>
+    <div onclick='enviarEmail()'>E-mail</div>
+    <p id='msn'></p>
+    <script>
+        function enviarEmail() {
+            alert('gustavo.s@ges.inatel.br');
+            document.getElementById('msn').innerHTML = 'Mensagem Enviada';
+        }
+    </script>
+</body>
+
+</html>
